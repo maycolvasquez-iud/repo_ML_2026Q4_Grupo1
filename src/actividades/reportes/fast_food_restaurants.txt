@@ -1,0 +1,15 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 99
+Columnas: 3
+Duplicados: 0
+
+Columnas y tipos:
+- product: object
+- description: object
+- marketing_email: object
+
+Valores nulos por columna:
+- product: 0
+- description: 0
+- marketing_email: 0
