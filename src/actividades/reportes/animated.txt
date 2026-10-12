@@ -1,0 +1,52 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 7373
+Columnas: 16
+Duplicados: 0
+
+Columnas y tipos:
+- file: object
+- object_id: object
+- id_family: object
+- source_format: object
+- size_bytes: int64
+- num_vertices: int64
+- num_meshes: int64
+- num_nodes: int64
+- num_joints: int64
+- num_skeleton_roots: int64
+- single_tree: bool
+- num_animations: int64
+- total_duration_sec: float64
+- max_keyframes: int64
+- animated_joints: int64
+- generator: object
+
+Valores nulos por columna:
+- file: 0
+- object_id: 0
+- id_family: 0
+- source_format: 2068
+- size_bytes: 0
+- num_vertices: 0
+- num_meshes: 0
+- num_nodes: 0
+- num_joints: 0
+- num_skeleton_roots: 0
+- single_tree: 0
+- num_animations: 0
+- total_duration_sec: 0
+- max_keyframes: 0
+- animated_joints: 0
+- generator: 0
+
+Estadísticas numéricas:
+         size_bytes  num_vertices  num_meshes  num_nodes  num_joints  num_skeleton_roots  num_animations  total_duration_sec  max_keyframes  animated_joints
+count  7.373000e+03      7373.000    7373.000   7373.000    7373.000            7373.000        7373.000            7373.000       7373.000         7373.000
+mean   3.405887e+06     21600.020       5.213     62.706      48.037               1.152           2.196              10.237        213.416           45.144
+std    8.869446e+06     58907.034      23.109     57.812      21.990               0.982           7.281              44.319        538.766           21.138
+min    1.564400e+04        55.000       1.000      5.000       3.000               1.000           1.000               0.033          2.000            2.000
+25%    3.602120e+05      2548.000       1.000     38.000      33.000               1.000           1.000               1.375         41.000           29.000
+50%    9.827720e+05      6628.000       1.000     57.000      44.000               1.000           1.000               3.200         89.000           41.000
+75%    3.012168e+06     17970.000       5.000     74.000      65.000               1.000           1.000               9.467        236.000           63.000
+max    2.765657e+08   1524560.000    1380.000   1542.000     344.000              17.000         226.000            2725.500      28607.000          344.000
