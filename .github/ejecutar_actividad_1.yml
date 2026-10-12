@@ -67,5 +67,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: actualizar resultados de la Actividad 1 [skip ci]"
+          git commit -m "chore: Actualizar resultados de la Actividad 1 [skip ci]"
           git push origin HEAD:main
