@@ -41,12 +41,12 @@ jobs:
 
       - name: Limpiar datos y reportes generados
         run: |
-          mkdir -p src/sincronicas/datos src/sincronicas/reportes
-          find src/sincronicas/datos -mindepth 1 -delete
-          find src/sincronicas/reportes -mindepth 1 -delete
+          mkdir -p src/actividades/datos src/actividades/reportes
+          find src/actividades/datos -mindepth 1 -delete
+          find src/actividades/reportes -mindepth 1 -delete
 
       - name: Ejecutar actividad_1.ipynb
-        working-directory: src/sincronicas
+        working-directory: src/actividades
         run: |
           source ../../.venv/bin/activate
           jupyter nbconvert \
